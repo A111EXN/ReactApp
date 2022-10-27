@@ -1,17 +1,16 @@
-import './App.css';
+import React from 'react';
 import Header from './Header';
-import Footer from './Footer';
+import './App.css';
+import HomePage from './HomePage';
+
 
 function App() {
   return (
-    <div >
+    <div>
       <Header/>
-      <h1>This is much harder than it looks</h1>
-      <p>This is starting to get fun </p>
-      {console.log('Very top secret hidden message')}
-      <Footer/>
+      <HomePage/>
     </div>
-  );
+  )
 }
 
 export default App;
